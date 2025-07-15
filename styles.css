@@ -1,0 +1,95 @@
+/* Common layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-left: 10px solid #2d45c8;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.task {
+  background-color: #2d45c8;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+h2 {
+  color: #2d45c8;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.demo {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.demo a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* Calculator */
+.calculator {
+  max-width: 300px;
+  margin: 40px auto;
+  background-color: #1e90ff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0f0ff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1565c0;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #003c8f;
+}
